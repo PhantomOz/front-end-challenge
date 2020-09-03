@@ -1,0 +1,236 @@
+body{
+  background-color: #FAFAFA;
+}
+@media (min-width: 375px) {
+
+
+  p, h3, h4{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    text-align: left;
+  }
+  .container, .row{
+    height: inherit;
+    padding: 0;
+  }
+  .first-col{
+    background-color: #A058FF;
+    border-bottom-left-radius: 240px;
+    border-bottom-right-radius: 240px;
+    height: 560px;
+    position: relative;
+    right: 25px
+  }
+
+  /* App section */
+  .app{
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    height: 450px;
+    position: relative;
+    right: 85px;
+    top: 100px;
+    text-align: center;
+    width: 250px;
+    z-index: 2;
+    box-shadow: 8px 15px 12px #D9D6DD;
+    padding: 10px;
+  }
+  .little-square{
+    background-color: white;
+    width: 50%;
+    height: 20px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+
+    position: absolute;
+    left: 25%;
+    z-index: 3;
+
+  }
+
+  /* App Header section */
+  .avatar{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 100%;
+    width: 32px;
+    /* float: left; */
+    /* margin: 8px; */
+    vertical-align: middle;
+  }
+  .app-header{
+    background: linear-gradient(to right, #9557FF, #DF60FF);
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 22px;
+    padding-bottom: 5px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  .name-det{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 25px 0 2px;
+  }
+  .header-icon{
+    color: white;
+    font-size: 70%;
+    margin: 0 2px 0 20px;
+    vertical-align: middle;
+  }
+  .app-heading{
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    margin: 10px auto 4px;
+  }
+  .app-subheading{
+    color: hsl(276, 100%, 81%);
+    font-size: 9px;
+    font-weight: 400;
+    margin: 4px auto 4px;
+  }
+
+  /* App Body Section */
+  .app-body{
+    background-color: #F5F3F8;
+    border-radius: 18px;
+    margin-top: -12px;
+    padding: 13px 8px 8px;
+    position: relative;
+    z-index: -1
+  }
+  .left-chat{
+    background-color: #EDE4F5;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 5px;
+    color:  hsl(276, 55%, 52%);
+    font-size: 8px;
+    font-weight: 400;
+    margin: 5px;
+    padding: 3px 8px 3px;
+    width: 60%;
+  }
+  .right-chat{
+    background-color: #ffffff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    box-shadow: 1px 8px 3px #D9D6DD;
+    color: hsl(271, 15%, 43%);
+    display: inline-block;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 2;
+    margin: 5px auto 5px;
+    padding: 0 8px 0;
+    max-width: 60%;
+  }
+  .response{
+    text-align: right;
+  }
+  .dog-pics{
+    border-radius: 15%;
+    width: 36px
+  }
+  .pricing{
+    text-align: left;
+  }
+  .price{
+    background: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 5px;
+    display: inline-block;
+    margin: 3px;
+    width: 70%;
+    padding: 0;
+    text-align: left;
+  }
+  .time{
+    font-size: 9px;
+    color: hsl(276, 100%, 81%);
+  }
+  .lower-pay, .higher-pay{
+    font-size: 14px;
+    font-weight: 700;
+    color:  hsl(0, 0%, 100%);
+  }
+  .lower-pay{
+    margin: 0 2px 0 15px;
+  }
+  .higher-pay{
+    margin: 0 2px 0 29px
+  }
+  .radio{
+    color: hsl(289, 100%, 72%);
+    margin: 0 1px 0 3px;
+  }
+  /* Type-Bar */
+  .type-bar{
+    background-color: white;
+    border-radius: 18px;
+    text-align: left;
+    margin: 5px 0 3px;
+  }
+  .message{
+    color: hsl(270, 7%, 64%);
+    font-size: 9px;
+    font-weight: 400;
+    margin: 0 77px 0 12px;
+  }
+  /* explainatory */
+  .booking{
+    margin-top: 18%;
+    position: relative;
+    left: 60px;
+    width: 800px;
+  }
+  .booking .heading{
+    color: hsl(271, 36%, 24%);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 2;
+  }
+  .detail{
+    color: hsl(270, 7%, 64%);
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    width: 450px;
+    z-index: 1;
+  }
+  /* Last Section */
+  .last-cols{
+    background-color: #F9F4FA;
+    border-radius: 240px;
+    height: 800px;
+    margin-top: 7%;
+    position: relative;
+    left: 130px;
+    vertical-align: bottom;
+  }
+}
+/* mobile responsive */
+@media (max-width: 375px) {
+  .app{
+    /* background-color: #FFFFFF;
+    border-radius: 24px;
+    height: 450px; */
+    position: static;
+    /* right: 60px; */
+    top: 100px;
+    text-align: center;
+    /* width: 250px;
+    z-index: 2;
+    box-shadow: 8px 15px 12px #D9D6DD;
+    padding: 10px; */
+  }
+}
