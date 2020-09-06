@@ -1,7 +1,9 @@
-body{
-  background-color: #FAFAFA;
-}
+
 @media (min-width: 375px) {
+  body{
+  background-color: #FAFAFA;
+  overflow: hidden;
+  }
 
 
   p, h3, h4{
@@ -27,11 +29,12 @@ body{
     background-color: #FFFFFF;
     border-radius: 24px;
     height: 450px;
-    position: relative;
-    right: 85px;
+    position: absolute;
+    left: 370px;
     top: 100px;
     text-align: center;
-    width: 250px;
+    min-width: 210px;
+    max-width: 230px;
     z-index: 2;
     box-shadow: 8px 15px 12px #D9D6DD;
     padding: 10px;
@@ -190,7 +193,7 @@ body{
   .booking{
     margin-top: 18%;
     position: relative;
-    left: 60px;
+    left: 250px;
     width: 800px;
   }
   .booking .heading{
@@ -213,8 +216,8 @@ body{
     border-radius: 240px;
     height: 800px;
     margin-top: 7%;
-    position: relative;
-    left: 130px;
+    position: absolute;
+    left: 82%;
     vertical-align: bottom;
   }
 }
