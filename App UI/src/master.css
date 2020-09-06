@@ -220,6 +220,12 @@
     left: 82%;
     vertical-align: bottom;
   }
+  .attribution { 
+    font-size: 11px; text-align: center; 
+  }
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+  }
 }
 /* mobile responsive */
 @media (max-width: 375px) {
